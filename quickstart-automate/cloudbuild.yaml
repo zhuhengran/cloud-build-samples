@@ -16,4 +16,6 @@
 steps:
   - name: golang
     args: ['go', 'run', 'quickstart-automate/main.go']
+
+logsBucket: "gs://test_cloud_build-1"
 # [END cloudbuild_quickstart_automate]
